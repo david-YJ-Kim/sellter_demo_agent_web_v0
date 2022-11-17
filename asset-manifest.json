@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sellter_demo_agent_web_v0/static/css/main.7e1667ef.css",
-    "main.js": "/sellter_demo_agent_web_v0/static/js/main.3f311e06.js",
+    "main.js": "/sellter_demo_agent_web_v0/static/js/main.dc480482.js",
     "index.html": "/sellter_demo_agent_web_v0/index.html",
     "main.7e1667ef.css.map": "/sellter_demo_agent_web_v0/static/css/main.7e1667ef.css.map",
-    "main.3f311e06.js.map": "/sellter_demo_agent_web_v0/static/js/main.3f311e06.js.map"
+    "main.dc480482.js.map": "/sellter_demo_agent_web_v0/static/js/main.dc480482.js.map"
   },
   "entrypoints": [
     "static/css/main.7e1667ef.css",
-    "static/js/main.3f311e06.js"
+    "static/js/main.dc480482.js"
   ]
 }
