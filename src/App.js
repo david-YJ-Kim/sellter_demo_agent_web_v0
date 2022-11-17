@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { MemoryRouter as Router, Routes, Route } from "react-router-dom";
+import Hello from "./routes/Hello";
+import Home from "./routes/Home";
+import "./App.css";
+import Login from "./routes/LogIn";
+import BizAccount from "./routes/BizAccount";
+import SalesManagement from "./routes/SalesManagement";
+import KeywordCollection from "./routes/KeywordCollection​";
+import ItemDeploy from "./routes/ItemDeploy";
+import ItemCollection from "./routes/ItemCollection";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/bizAccount" element={<BizAccount />} />
+        <Route path="/itemCollection" element={<ItemCollection />} />
+        <Route path="/itemDeploy" element={<ItemDeploy />} />
+        <Route path="/keywordCollection" element={<KeywordCollection />} />
+        <Route path="/salesManagement" element={<SalesManagement />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
